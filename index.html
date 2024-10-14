@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Namaste React</title>
+
+</head>
+<body>
+    <div id="root">  
+          <h1>Hello world</h1>
+    </div>
+
+    <script>
+        const heading = document.createElement("h5");    <!-- h1,h2 etc tags creation in JS-->
+        heading.innerHTML="Hello World form JS";
+
+        const root = document.getElementById("root");      <!-- bind with the div in JS-->
+        root.appendChild(heading);                         <!--append as child to the for the root div in js-->
+
+   </script>
+<script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+<script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+</body>
+</html>
